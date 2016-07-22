@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\logging_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\memory_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\messages_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\mosquitto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\net_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\read_handle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\read_handle_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\read_handle_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\send_client_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\send_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\socks_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\srv_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\thread_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\time_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\tls_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\util_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\will_mosq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\an_proxy.c">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\an_socks4.c">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\an_socks5.c">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\an_ssl.c">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\iscmd5.c">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\an_core.c">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\an_direct.c">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\ntlm\utils.c">
+      <Filter>proxy\ntlm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\ntlm\xcrypt.c">
+      <Filter>proxy\ntlm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\ntlm\auth.c">
+      <Filter>proxy\ntlm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\proxy\ntlm\ntlm.c">
+      <Filter>proxy\ntlm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lib\logging_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\memory_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\messages_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\mosquitto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\mosquitto_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\mqtt3_protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\net_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\read_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\send_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\util_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\will_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\antinat.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\config.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\iscmd5.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\winconf.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\an_core.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\an_internals.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\ntlm\swap.h">
+      <Filter>proxy\ntlm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\ntlm\utils.h">
+      <Filter>proxy\ntlm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\ntlm\xcrypt.h">
+      <Filter>proxy\ntlm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\ntlm\auth.h">
+      <Filter>proxy\ntlm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\ntlm\config-win.h">
+      <Filter>proxy\ntlm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\proxy\ntlm\ntlm.h">
+      <Filter>proxy\ntlm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\socks_mosq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2DEB8592-C864-3282-9A9E-6E62D0ED9BFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0EA918DD-3175-360B-8F06-A2A04A0CC40E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxy">
+      <UniqueIdentifier>{3a4870d0-c3e2-4384-88a2-35a023f6f902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxy\ntlm">
+      <UniqueIdentifier>{8e326a7a-0dbe-4805-a793-0eb81f7fffff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
